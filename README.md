@@ -1,3 +1,3 @@
-Guide: [https://financetrain.com/series/financial-time-series-analysis-in-r/]
+[Finance train guide](https://financetrain.com/series/financial-time-series-analysis-in-r/)
 
-Datasets: [https://www.quandl.com/data/EOD-End-of-Day-US-Stock-Prices/documentation]
+[Quandl Datasets](https://www.quandl.com/data/EOD-End-of-Day-US-Stock-Prices/documentation)
