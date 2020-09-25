@@ -46,9 +46,10 @@ showMetrics <- function(dataset)
 #Função para desenhar o gráfico
 drawGraph <- function(dataset)
 {
- plot(dataset, pch=21, bg="orange", col="purple", type='p',xlim = c(0,20), ylim = c(0,15))
- Regression = lm( dataset$y ~ dataset$x )
- abline(Regression, col="blue", lwd=3)
+  x11()
+  plot(dataset, pch=21, bg="orange", col="purple", type='p',xlim = c(0,20), ylim = c(0,15))
+  Regression = lm( dataset$y ~ dataset$x )
+  abline(Regression, col="blue", lwd=3)
 }
 
 #Imprimir os quatro gráficos
@@ -69,3 +70,5 @@ showMetrics(a1)
 showMetrics(a2)
 showMetrics(a3)
 showMetrics(a4)
+
+Sys.sleep(999)
