@@ -1,4 +1,4 @@
-# Financial time analysis in R
+# R Time Series: Finances analysis
 
 <div style='display:flex;flex-direction:row'>
 <img src="https://img.shields.io/badge/r-%23276DC3.svg?&style=for-the-badge&logo=r&logoColor=white"/>
